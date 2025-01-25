@@ -1,1 +1,66 @@
-/* file css */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+main{
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+}
+
+footer{
+    text-align: center;
+}
+
+form{
+    background-color: rgb(234, 234, 234);
+    padding: 32px;
+    border-radius: 8px;
+}
+
+button{
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+input{
+    border-radius: 8px;
+    border: 0.5px solid;
+}
+
+.tombol-hitung{
+background-color: darkturquoise;
+color: white;
+}
+
+.tombol-reset{
+background-color: black;
+color: white;
+}
+
+#result-bmi{
+    font-size: xx-large;
+    font-family: math;
+}
+
+.main-header{
+    text-align: center;
+}
+
+input[type="number"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.result-section{
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+    padding-top: 6px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
