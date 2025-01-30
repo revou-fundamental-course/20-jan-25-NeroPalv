@@ -21,21 +21,26 @@
 
         <!-- form -->
         <form>
+            <div class="input-jenis-kelamin">
+                <p><b>Jenis Kelamin</b></p>
+                <label for="pria"><b>Pria</b> <input name="Kelamin" id="pria" type="radio" required></label>
+                <label for="wanita"><b>Wanita</b> <input name="Kelamin" id="wanita" type="radio"></label>
+            </div>
             <div class="form-group">
-                <label for="input-BB">Berat Badan (KG) : </label>
+                <label for="input-BB"><b>Berat Badan (KG) : </b></label>
                 <input type="number" id="input-BB">
             </div>
             <div class="form-group">
-                <label for="input-TB">Tinggi Badan (CM) : </label>
+                <label for="input-TB"><b>Tinggi Badan (CM) : </b></label>
                 <input type="number" id="input-TB">
             </div>
             <div class="form-group">
-                <label for="input-usia">Usia (Tahun) : </label>
+                <label for="input-usia"><b>Usia (Tahun) : </b></label>
                 <input type="number" id="input-usia">
             </div>
             <div>
-                <button class="tombol-hitung">Hitung BMI</button>
-                <button class="tombol-reset">Reset</button>
+                <button class="tombol-hitung" type="button" onclick="calculateBmi()"><b>Hitung BMI</b></button>
+                <button class="tombol-reset"><b>Reset</b></button>
             </div>
             
         </form>
@@ -70,5 +75,6 @@
     <footer>
         <span>Made by orang</span>
     </footer>
+    <script src="js\script.js"></script>
 </body>
 </html>
